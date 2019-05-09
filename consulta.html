@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+        <style>
+                /*Estilizando o botão da tela inicial*/
+                input{
+                             width: 300px;
+                             height: 30px;
+                             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                             color:slategray; 
+                             border-image-outset: 5px;
+                }
+                         /* Editanto os testextos*/
+                body{
+                         background-color:black;
+                         margin: 12px;
+                                                 }
+                hgroup{
+                        margin: 30 px;        
+                        color:white;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        size: 300px;
+                        text-align:center;
+                        }
+                
+                fieldset { 
+                  display:block;
+                  margin-left: 3px;
+                  margin-right: 3px;
+                        }
+                
+        </style>   
+</head>
+
+<script type="text/javascript" src="projeto.js"></script>
+
+<body>
+
+<hgroup>
+<fieldset>
+
+<h1>Consultar Projetos</h1>
+
+<h2>
+<div>
+        <div>
+          <br/><label for="Consulta"> Digite o nome do projeto que deseja consultar: </label>
+          <input type="text" id="cons" />
+
+        </div> 
+</br>
+
+<div id="cons">
+        <h2> 
+        <input type="submit" value="Consulta" onClick=" cadastar() ">
+        <input type="submit" value="Voltar" onClick=" Nova()">
+</div> 
+
+</h2>
+</fieldset>
+</hgroup>
+</body>
+</html>
+

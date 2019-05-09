@@ -1,0 +1,89 @@
+<!--Cadastrar Projetos-->
+
+<!DOCTYPE html>
+
+<head>
+    <style>
+        /*Estilizando o botão da tela inicial*/
+        input{
+                     width: 300px;
+                     height: 30px;
+                     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                     color:slategray; 
+                     border-image-outset: 6px;
+                     bottom: 30px;
+              }
+                 /* Editanto os testextos*/
+        body{
+                 background-color:black;
+                 margin: 12px;
+            }
+        hgroup{
+                margin: 30 px;        
+                color:white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                size: 300px;
+                text-align:center;
+                }
+        fieldset { 
+                  display:block;
+                  margin-left: 3px;
+                  margin-right: 3px;
+                  }
+      
+</style>   
+</head>
+
+<script type="text/javascript" src="projeto.js"></script>
+
+<body>
+
+   <form name="f_cad" method="get" action="salvar.php">
+   <hgroup>
+    <fieldset>
+
+       <h1>Cadastrar Projetos</h1>
+       <h2>
+
+<div>
+   <br/><label>* Nome: </label>
+   <input type="text" name="f_name" size="50" maxlength="40"/>
+</div>
+
+</br>
+  
+<div>
+  <br/><label >Introducao: </label>
+  <input type="text" name="f_intro" size="100" maxlength="90"/>
+</div> 
+
+</br>
+
+<div>
+    <br/><label>Área: </label>
+    <input type="text" name="f_area" size="20" maxlength="10" />
+</div> 
+
+</br>
+
+
+    <input type="submit" value="Cadastrar" onClick=" Prioridade()">
+    <input type="submit" value="Inicio" onClick=" Nova()">
+    <input type="submit" value="Limpar" onClick="resert">
+
+
+
+</h2>
+</hgroup>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+  
+ 
+
+

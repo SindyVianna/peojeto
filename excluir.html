@@ -1,0 +1,71 @@
+<!--excluir-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+<meta charset="utf-8">
+<link rel="stylesheet" href="projetoweb2\css\estilo.css">
+<style>
+                /*Estilizando o botão da tela inicial*/
+                input{
+                             width: 300px;
+                             height: 30px;
+                             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                             color:slategray; 
+                             border-image-outset: 5px;
+                }
+                         /* Editanto os testextos*/
+                body{
+                         background-color:black;
+                         margin: 12px;
+                                                 }
+                hgroup{
+                        margin: 30 px;        
+                        color:white;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        size: 300px;
+                        text-align:center;
+                        }
+                fieldset { 
+                  display:block;
+                  margin-left: 3px;
+                  margin-right: 3px;
+                  }
+      
+                
+        </style>   
+
+</head>
+
+
+<script type="text/javascript" src="projeto.js"></script>
+
+
+<body>
+
+<fieldset>
+
+<div>   
+     <hgroup>
+          <h1> Excluir projetos</h1>
+               <h2>
+               <div>
+                 <br/><label for="excluirp"> Digite o nome do projeto que deseja excluir: </label>
+                 <input type="text" id="excluir"/>
+               </div>
+</br>
+        
+             <div>
+                <input type="submit" value="excluir" onClick=" Excluir()">
+                <input type="submit" value="Voltar" onClick=" Nova()">
+             </div> 
+       
+</h2>
+</hgroup>
+
+</div>
+
+</body>
+</html>
